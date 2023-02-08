@@ -17,7 +17,7 @@ public class Funkcje1Test {
         signInButton.click();
         Thread.sleep(3000);
         WebElement emailInput = driver.findElement(By.className("is_required"));
-        emailInput.sendKeys("vaart321c4v312@test.pl");
+        emailInput.sendKeys("vbart321c4v312@test.pl");
         Thread.sleep(3000);
         WebElement createAccButton = driver.findElement(By.id("SubmitCreate"));
         createAccButton.click();
@@ -42,7 +42,7 @@ public class Funkcje1Test {
         WebElement email = driver.findElement(By.xpath("//input[@type='email']"));
         if (email.isDisplayed()) {
             email.clear();
-            email.sendKeys("vaart321c4v312@test.pl");
+            email.sendKeys("vbart321c4v312@test.pl");
         } else {
             System.out.println("Pole niedostępne");
         }
